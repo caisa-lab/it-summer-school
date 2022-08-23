@@ -5,15 +5,36 @@ Code, tutorials, and other materials for IT Summer School 2022
 
 ## Day 1
 
+| #    | title                                                 | description                                                                                      | slides                                                                                                                                                                                                            | code                                                                                          |
+| :--- | :---------------------------------------------------- | :----------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |
+| 0    | Installationanleitung / Installation guide            | Installing Python, Pygame, and VS Code                                                           | [Deutsch](./Day_1/0-Installationanleitung.pdf "Installationanleitung")                                                                                                                                            | n/a                                                                                           |
+| 1    | Grundlagen des Programmierens / Basic coding concepts | Variables, loops, conditionals, and a Scratch challenge                                          | [English](./Day_1/1-Basic_coding_concepts.pdf "Basic coding concepts"), [Deutsch](./Day_1/1-Grundlagen_des_Programmierens.pdf "Grundlagen des Programmierens")                                                    | [Solve the bugs!](https://scratch.mit.edu/projects/723149668/editor/ "Buggy Scratch project") |
+| 2    | Pacman on Scratch tutorial                            | Erstelle dein eigenes Pac-Man spiel mit Scratch / How to Create Your own Pac-man Game in Scratch | [English](./Day_1/2-PacMan_tutorial_in_Scratch_en.pdf "How to Create Your own Pac-man Game in Scratch"), [Deutsch](./Day_1/2-PacMan_tutorial_in_Scratch_de.pdf "Erstelle dein eigenes Pac-Man spiel mit Scratch") | [MIT Scratch](https://scratch.mit.edu/  "MIT Scratch")                                        |
+| 3    | Einführung in Python / Programming in Python          | Python crash course. Follow along with the lecture notebook.                                     | [English](./Day_1/3-Python_en.pdf "Introduction to Python"), [Deutsch](./Day_1/3-Python_de.pdf "Einführung in Python")                                                                                            | [Lecture notebook (Deutsch)](./Day_1/V3-Notebook.ipynb "Lecture notebook")                    |
+
+
 ## Day 2
+
+| #    | title            | description                                     | slides                                                                                     | code                                                                                                                              |
+| :--- | :--------------- | :---------------------------------------------- | :----------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| 4    | Game programming | Game loops: events, updates, and draw screen.   | [English](./Day_2/4-Game_programming_en.pdf), [Deutsch](./Day_2/4-Game_Programming_de.pdf) | [Coding challenge](./Day_2/L4_coding_challenge "Coding challenge matierals"), [Lecture starter code](./ "coming soon") |
+| 5    | AI Pacman        | How to make an AI Pacman                        | [English](./Day_2/5-Pacman_AI_en.pdf), [Deutsch](./Day_2/5-Pacman_AI_de.pdf)               | [Starter code](./ "coming soon")                                                                                                  |
+| 6    | Pong             | Introduction to Pong exercises and starter code | [English](./Day_2/6-Pre-pong_en.pdf), [Deutsch](./Day_2/6-Pre_pong_de.pdf)                 | [Starter code](./ "coming soon")                                                                                                  |
+
 
 ## Day 3
 
+| #    | title  | description                                     | slides                                                                     | code                             |
+| :--- | :----- | :---------------------------------------------- | :------------------------------------------------------------------------- | :------------------------------- |
+| 7    | Pepper | Programming the Pepper Robot                    | [Deutsch](./Day_3/7-Pepper.pdf)                                            | [Starter code](./ "coming soon") |
+| 6    | Pong   | Introduction to Pong exercises and starter code | [English](./Day_2/6-Pre-pong_en.pdf), [Deutsch](./Day_2/6-Pre_pong_de.pdf) | [Starter code](./ "coming soon") |
+
 ## Day 4
 
-| title                     | description                                                                                                                             | slides                                                                                       | code                                               |
-| :------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------- |
-| Animated Sprites Tutorial | Want to learn how to make your sprites look a little more animated? In this tutorial, you'll learn about sprite sheets and to use them! | [English](./Day_4/animated_sprites_tutorial/Tutorial_slides.pdf "Animated sprites tutorial") | [tutorial code](./Day_4/animated_sprites_tutorial) |
+| #    | title                                           | description                                                                                                                             | slides                                                                                                                | code                                               |
+| :--- | :---------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------- |
+| 8    | Advancing: Class Inheritance and Pygame Classes |                                                                                                                                         | [Deutsch](./Day_4/8-inheritance_and_pygame_classes_de.pdf),[English](./Day_4/8-inheritance_and_pygame_classes_en.pdf) | [tutorial code](./ "coming soon")                  |
+| 9    | Animating Sprites Tutorial                      | Want to learn how to make your sprites look a little more animated? In this tutorial, you'll learn about sprite sheets and to use them! | [English](./Day_4/animated_sprites_tutorial/9-Animating_Sprites_tutorial_en.pdf "Animated sprites tutorial")          | [tutorial code](./Day_4/animated_sprites_tutorial) |
 
 
 ## All
