@@ -1,7 +1,7 @@
 # IT Summer School, Marburg 2022
 Code, tutorials, and other materials for IT Summer School 2022
 
-
+You can find the timetable [here](./Timetable_Welcome_mail.pdf)
 
 ## Day 1
 
