@@ -1,0 +1,12 @@
+import pygame
+
+WIDTH, HEIGHT = 1200, 600
+FPS = 60 # frame per second
+
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+
+PADDLE_HEIGHT, PADDLE_WIDTH = HEIGHT // 5, WIDTH // 50
+BALL_RADIUS = WIDTH // 100
+
+WINNING_SCORE = 2
