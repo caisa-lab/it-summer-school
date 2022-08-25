@@ -1,3 +1,5 @@
+## Day 3
+
 | #    | title  | description                                     | slides                                                                     | code                             |
 | :--- | :----- | :---------------------------------------------- | :------------------------------------------------------------------------- | :------------------------------- |
 | 7    | Pepper | Programming the Pepper Robot                    | [Deutsch](./Day_3/Slides/7-Pepper.pdf)                                            | [Starter code](./ "coming soon") |
