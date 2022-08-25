@@ -1,6 +1,8 @@
 """ Imports, initialization, and constants """
 import sys, pygame 
 from pygame.locals import * 
+import pathlib
+code_dir = pathlib.Path(__file__).parent.resolve()
 
 pygame.init() 
 SCREEN_RECT = pygame.Rect(0,0,640, 480)
