@@ -1,8 +1,8 @@
 hid/
 
-./Day_3/Code/Pong_Solution/
-./Day_4/Code/Pong_AI_Tutorial/
-./Day_4/Code/Pong_AI_Solution/
+Day_3/Code/Pong_Solution/
+Day_4/Code/Pong_AI_Tutorial/
+Day_4/Code/Pong_AI_Solution/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
