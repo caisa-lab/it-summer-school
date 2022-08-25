@@ -2,10 +2,12 @@
 import pygame, sys
 from pygame.locals import *
 import utils
+import pathlib
+code_dir = str(pathlib.Path(__file__).parent.resolve()) # used to know the location of image files
 
 pygame.init()
 pygame.display.set_caption('Sprite sheets')
-icon = utils.load_image("imgs/kitty.png", size=(32,32))
+icon = utils.load_image(code_dir + "/imgs/kitty.png", size=(32,32))
 pygame.display.set_icon(icon)
 SCREENRECT = pygame.Rect(0, 0, 640, 480)
 WHITE = (225,225,225)
@@ -54,7 +56,7 @@ def main():
     sprites = pygame.sprite.Group()
 
     """ make player object """
-    player_sprites = load_spritesheet("imgs/kitty-spritesheet.png", cols=2, scale=4)
+    player_sprites = load_spritesheet(code_dir + "/imgs/kitty-spritesheet.png", cols=2, scale=4)
     player = Player(player_sprites)
     player.rect.midbottom = SCREENRECT.midbottom
     sprites.add(player)

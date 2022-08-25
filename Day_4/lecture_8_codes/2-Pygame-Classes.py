@@ -2,7 +2,7 @@
 import sys, pygame 
 from pygame.locals import * 
 import pathlib
-code_dir = pathlib.Path(__file__).parent.resolve()
+code_dir = str(pathlib.Path(__file__).parent.resolve()) # used to know the location of image files
 
 pygame.init() 
 SCREEN_RECT = pygame.Rect(0,0,640, 480)
@@ -41,7 +41,7 @@ def load_image(file_path, size=None, scale=None):
 """ Main function """
 def main():
 
-    img = load_image("imgs/kitty.png", scale=3)
+    img = load_image(code_dir + "/imgs/kitty.png", scale=3)
     player = Player(img, SCREEN_RECT.midbottom)
     sprites = pygame.sprite.Group()
     sprites.add(player) 

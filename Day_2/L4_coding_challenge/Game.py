@@ -10,10 +10,12 @@ import my_functions
 from Player import Player
 from Pepper import Pepper
 from my_functions import Score, Lives, GameOver, Background
+import pathlib
+code_dir = str(pathlib.Path(__file__).parent.resolve()) # used to know the location of image files
 
 pygame.init()
 pygame.display.set_caption('Cat wants peppers!')
-icon = my_functions.load_image("images/kitty.png", size=(32,32))
+icon = my_functions.load_image(code_dir + "/images/kitty.png", size=(32,32))
 pygame.display.set_icon(icon)
 SCREENRECT = pygame.Rect(0, 0, 640, 480)
 
@@ -24,17 +26,17 @@ def main():
     sprites = pygame.sprite.Group()
 
     """ setup background """
-    img = my_functions.load_image("images/backdrop.png", size=SCREENRECT.size)
+    img = my_functions.load_image(code_dir + "/images/backdrop.png", size=SCREENRECT.size)
     background = Background(img)
     sprites.add(background)
 
     """ make player object """
-    img = my_functions.load_image("images/kitty.png", scale=3)
+    img = my_functions.load_image(code_dir + "/images/kitty.png", scale=3)
     player = Player(img, SCREENRECT.midbottom)
     sprites.add(player) 
 
     """ make pepper object """
-    img = my_functions.load_image("images/pepper.png", scale=3)
+    img = my_functions.load_image(code_dir + "/images/pepper.png", scale=3)
     pepper = Pepper(img, SCREENRECT.midtop)
     sprites.add(pepper)
 
