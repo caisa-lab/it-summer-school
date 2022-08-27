@@ -1,4 +1,7 @@
 # IT Summer School, Marburg 2022
+
+<img src="./logo.png" width="80">
+
 Code, tutorials, and other materials for IT Summer School 2022
 
 You can find the timetable [here](./Timetable_Welcome_mail.pdf)
