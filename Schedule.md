@@ -1,4 +1,0 @@
-# Timetable IT Summerschool
-
-
-| Date
